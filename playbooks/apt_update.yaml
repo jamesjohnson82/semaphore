@@ -1,7 +1,6 @@
 ---
 - hosts: all
   become: true
-  ask_become_pass: true
   become_method: sudo
   
   tasks:
